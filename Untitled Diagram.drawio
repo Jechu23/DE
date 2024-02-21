@@ -1,9 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T00:05:11.947Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.2" etag="v_qZJ2f7EvdWBWYpsYr4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T00:30:18.862Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="f9xty25SzIFrhWxWM3xk" version="23.1.2" type="github">
   <diagram name="Page-1" id="cSCUYsurBvRqZyjOfCuI">
-    <mxGraphModel>
+    <mxGraphModel dx="1331" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OjhVu05yJqxauQ-d9Z52-1" target="OjhVu05yJqxauQ-d9Z52-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-1" value="WebSite&lt;br&gt;(Order placed)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OjhVu05yJqxauQ-d9Z52-2" target="OjhVu05yJqxauQ-d9Z52-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-2" value="Sales Order Confirmation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-3" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 9px;&quot;&gt;Client confirms sales order&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 9px;&quot;&gt;Sales team enters order details&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="340" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OjhVu05yJqxauQ-d9Z52-4" target="OjhVu05yJqxauQ-d9Z52-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OjhVu05yJqxauQ-d9Z52-4" target="OjhVu05yJqxauQ-d9Z52-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-4" value="Inventory Management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-5" value="&lt;ul style=&quot;font-size: 9px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Check stock levels&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Generate purchase requisition if needed&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="340" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OjhVu05yJqxauQ-d9Z52-6" target="OjhVu05yJqxauQ-d9Z52-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-6" value="Purchase Requisition" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-7" value="&lt;ul style=&quot;font-size: 9px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Purchasing department approves requisition&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Purchase orders sent to suppliers&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="340" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OjhVu05yJqxauQ-d9Z52-8" target="OjhVu05yJqxauQ-d9Z52-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OjhVu05yJqxauQ-d9Z52-8" target="OjhVu05yJqxauQ-d9Z52-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-8" value="Manufacturing Planning and production" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-9" value="&lt;ul style=&quot;font-size: 9px;&quot;&gt;&lt;li&gt;Suppliers deliver raw materials&lt;br&gt;&lt;/li&gt;&lt;li&gt;Plan production schedule&lt;br&gt;&lt;/li&gt;&lt;li&gt;Manufacture products&lt;br&gt;&lt;/li&gt;&lt;li&gt;Inspect finished products (QP)&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="340" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OjhVu05yJqxauQ-d9Z52-10" target="OjhVu05yJqxauQ-d9Z52-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1090" y="300" />
+              <mxPoint x="1090" y="440" />
+              <mxPoint x="525" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-10" value="Invoicing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-11" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;Generate invoices&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;Send invoices to clients&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="927.5" y="340" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OjhVu05yJqxauQ-d9Z52-12" target="OjhVu05yJqxauQ-d9Z52-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-12" value="Delivery" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-13" value="&lt;ul style=&quot;font-size: 9px;&quot;&gt;&lt;li style=&quot;font-size: 9px;&quot;&gt;Ship products to clients&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="440" y="540" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-14" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="650" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OjhVu05yJqxauQ-d9Z52-15" value="Batch Tracking&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Tag batches with unique identifiers&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="613" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
